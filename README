@@ -1,0 +1,3 @@
+1. Use mainDeepposeFLIC.m to generate dataset for training and testing (stage 1 and stage 2)
+2. Train Deeppose Stage1 first(finetuned from Alexnet), then train Deeppose Stage2 (finetuned from Stage 1)
+3. Use evalDeepposeSingleStage.m and eval DeepposeMultiStages.m for evaluation
